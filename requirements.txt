@@ -24,6 +24,8 @@ idna==3.4
     # via
     #   anyio
     #   email-validator
+motor==3.3.2
+    # via -r requirements.in
 pydantic==2.6.3
     # via
     #   -r requirements.in
