@@ -14,7 +14,7 @@ wlan.active(True)
 wlan.connect(ssid, password)
 
 # Make GET request
-response = requests.get("http://www.google.com")
+response = requests.get("picoapi.artur.engineer/")
 # Get response code
 response_code = response.status_code
 # Get response content
