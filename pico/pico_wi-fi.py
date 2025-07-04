@@ -6,8 +6,8 @@ import ubinascii
 import ujson
 
 #WLAN-Daten
-ssid = "corredtSSID"
-password = "passw"
+ssid = "INF-LAB"
+password = "INF-LAB@BBZW-2024"
 
 #WLAN verbinden
 wlan = network.WLAN(network.STA_IF)
